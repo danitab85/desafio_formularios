@@ -23,7 +23,7 @@ class SalesController < ApplicationController
   end
 
   def done
-    @sales= Sale.all
+    @sales = Sale.all
   end
 
 
